@@ -1,0 +1,369 @@
+/* Project CSS Source Code by shubhampal.co.in */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: arial;
+}
+
+#nav1 {
+    height: 55px;
+    width: 100%;
+    background: black;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 60px;
+    box-sizing: border-box;
+}
+
+#nav2 {
+    height: 40px;
+    width: 100%;
+    background: #232f3e;
+    color: white;
+    float: left;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo1 {
+    height: 25px;
+    width: 90px;
+    float: left;
+}
+
+.logo2 {
+    height: 12px;
+    width: 12px;
+    float: left;
+    margin-top: -12px;
+    margin-left: -12px;
+    float: left;
+}
+
+.txt {
+    display: inline-block;
+}
+
+.txt1 {
+    font-size: 11px;
+}
+
+.txt2 {
+    margin-top: -12px;
+    float: left;
+    font-size: 13px;
+}
+
+.txt a {
+    color: white;
+}
+
+.input {
+    height: 38px;
+    width: 600px;
+    border-radius: 5px;
+}
+
+.input1 {
+    height: 38px;
+    width: 44px;
+    background: #f3f3f3;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
+    color: black;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+select {
+    font-size: 12px;
+    border-style: none;
+    background: #f3f3f3;
+    text-align: center;
+    height: 38px;
+    width: 44px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+.input2 {
+    height: 38px;
+    width: 520px;
+    background: white;
+    float: left;
+}
+
+.input3 {
+    height: 38px;
+    width: 36px;
+    background: #ffb464;
+    float: left;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo3 {
+    height: 18px;
+    width: 18px;
+}
+
+[type="search"] {
+    height: 38px;
+    width: 520px;
+    border-style: none;
+    padding-left: 10px;
+}
+
+.txt3 {
+    display: inline-block;
+}
+
+.txt4 {
+    font-size: 11px;
+}
+
+.txt5 {
+    margin-top: -10px;
+    float: left;
+    margin-left: -1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.txt3 a {
+    color: white;
+}
+
+.logo4 {
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+    float: left;
+}
+
+.txt6 {
+    margin: 0px;
+    float: left;
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+
+#hr {
+    display: inline-block;
+    height: 40px;
+    width: 35px;
+    float: left;
+    padding: 7px;
+    padding-right: 0px;
+    margin-right: 0px;
+}
+
+.hr {
+    height: 2px;
+    width: 14px;
+    background: white;
+    border-style: none;
+    margin: 3px;
+    border-radius: 5px;
+}
+
+#all {
+    height: 40px;
+    width: 25px;
+    float: left;
+    line-height: 35px;
+    margin-left: -14px;
+    font-size: 15px;
+}
+
+#nav-menu {
+    margin-left: -350px;
+    margin-top: 2px;
+}
+
+#nav-menu a {
+    color: white;
+}
+
+#menu {
+    list-style: none;
+    font-size: 13px;
+    margin: 0px;
+    margin-top: -16px;
+    margin-left: -150px;
+    padding: 0px;
+}
+
+#menu li {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 30px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu~a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    margin-top: -16px;
+}
+
+#banner {
+    height: 320px;
+    width: 100%;
+    margin: auto;
+    background-image: url(Amazon-Website/banner.jpg);
+    background-size: cover;
+    padding-top: 260px;
+    box-sizing: border-box;
+}
+
+#massage {
+    height: 35px;
+    width: 85%;
+    background: white;
+    text-align: center;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+#massage a {
+    text-decoration: none;
+    color: #1c9bc6;
+}
+
+#main-body {
+    height: 750px;
+    width: 100%;
+    background: #e2e7e6;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 12px;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 350px;
+    width: 350px;
+    background: white;
+    padding: 12px;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.box-img {
+    height: 240px;
+    width: 100%;
+    margin: 8px 0px;
+}
+
+.box a {
+    text-decoration: none;
+    color: #046776;
+    font-size: 12px;
+}
+
+#back {
+    height: 80px;
+    width: 100%;
+    background: #37475a;
+    text-align: center;
+    line-height: 80px;
+
+}
+
+#back a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+#footer1 {
+    height: 310px;
+    width: 100%;
+    background: #232f3e;
+    color: white;
+    padding: 0px 150px;
+    box-sizing: border-box;
+}
+
+.foot {
+    height: 310px;
+    width: 25%;
+    float: left;
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+#footer-img {
+    height: 70px;
+    width: 100%;
+    background: #232f3e;
+    border-top: 1px solid white;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 25px;
+    width: 90px;
+}
+
+#footer2 {
+    height: 150px;
+    width: 100%;
+    background: #0f1111;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot li {
+    margin-bottom: 11px;
+    font-size: 11px;
+}
+
+.foot li a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot li:first-child {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Project CSS Source Code by shubhampal.co.in | All Rights Reseverd. */

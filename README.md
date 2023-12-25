@@ -1,1 +1,1 @@
-# Amazon-Website-Clone
+# amazonclone.github.io
